@@ -1,0 +1,66 @@
+body{
+display: flex;
+justify-content: center;
+align-items: center;
+margin: 0px;
+height: 100vh;
+background-color:#E4E4D0;
+}
+
+.proudct-card
+{
+   background-color:aliceblue;
+   border-radius: 20px; ;
+    width:fit-content;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    text-align: left;
+ 
+}
+
+img
+{
+    height:400px;
+    width:300px;
+    border-radius: 20px;
+}
+
+.info{
+
+    text-align: left;
+padding-left:10px;
+}
+
+.aft-discount{
+    color: green;
+font-size: x-large;
+font-weight: bold;
+margin: 0px;
+}
+
+p{
+    color:gray ;
+}
+.prices{
+    display:flex;
+    align-items: baseline;
+    margin-left: 20;
+    
+}
+
+button{
+    background-color: green;
+    width: 200px;
+    color: #fff;
+    border-radius :10px;
+    border-style: none;
+height: 50px;
+
+padding: 10px 20px; /* Adjust padding as needed */
+cursor: pointer;
+transition: background-color 0.3s;
+
+}
+button:hover {
+    background-color: #15560c;}
